@@ -10,7 +10,19 @@
     <meta content="24/7 Technologies is a global intent technology company that has combined resources
           (Skills,abilities, Intelligence, etc) as a tool in the Interplanetary Developmental programs."
           name="description">
-    <meta content="" name="keywords">
+    <meta content="IT consultancy, technology consulting, IT solutions, IT services, business technology,
+    technology consulting firm, IT support, information technology, IT consultants, IT advisory, IT consulting
+     services, business management software, digital marketing, e-commerce platform, online ordering system,
+     client portal, store security, e-commerce security, online store security, business management software solutions,
+     digital marketing services, business automation software, order management system, secure e-commerce,
+     e-commerce fraud prevention, mobile app development, web development, graphic design, website design,
+     home automation, smart home systems, mobile app design, web application development, responsive website design,
+     UI/UX design, logo design, home automation systems, smart home automation, custom software development,
+     web development services, mobile app development services, graphic design services, home automation installation
+     and services, home security, tracking devices, GPS tracking, intruder alarms, burglar alarms, security systems,
+     security cameras, home surveillance, PA system, intercom system, wireless security, home automation security,
+     remote monitoring, wireless intrusion detection, wireless security cameras, home security camera systems,
+     wired security systems, intercom systems, intrusion detection." name="keywords">
 
     <!-- Favicons -->
     <link href="<?=base_url()?>/public/logo.png" rel="icon">
