@@ -25,22 +25,23 @@
      wired security systems, intercom systems, intrusion detection." name="keywords">
 
     <!-- Favicons -->
-    <link href="<?=base_url()?>/public/logo.png" rel="icon">
+    <link href="<?= base_url() ?>/public/logo.png" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="<?=base_url()?>/public/vendor/aos/aos.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="<?=base_url()?>/public/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+    <link href="<?= base_url() ?>/public/vendor/aos/aos.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- Template Main CSS File -->
-    <link href="<?=base_url()?>/public/css/style.css" rel="stylesheet">
+    <link href="<?= base_url() ?>/public/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,8 +50,8 @@
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-        <a href="<?=base_url()?>" class="logo me-auto">
-            <img src="<?=base_url()?>/public/img/logo-white.png" alt="" class="img-fluid">
+        <a href="<?= base_url() ?>" class="logo me-auto">
+            <img src="<?= base_url() ?>/public/img/logo-white.png" alt="" class="img-fluid">
             <span class="logo-label">247 Technologies 🌈🔥</span>
         </a>
 
@@ -76,16 +77,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                 data-aos="fade-up" data-aos-delay="200">
                 <h1>Better Solutions For Your Business</h1>
                 <h2>Kindly view our products and services below</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="#services" class="btn-get-started scrollto">Get Started</a>
-                    <?php /*<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */?>
+                    <?php /*<a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */ ?>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-                <img src="<?=base_url()?>/public/img/hero-img.png" class="img-fluid animated" alt="">
+                <img src="<?= base_url() ?>/public/img/hero-img.png" class="img-fluid animated" alt="">
             </div>
         </div>
     </div>
@@ -171,13 +173,13 @@
                         the industry’s most mature framework of policies, processes, and tools for empowering, and not
                         merely managing, talent. Just get in touch and you will enjoy your reason for contacting.
                     </p>
-                    <?php /* <a href="#" class="btn-learn-more">Learn More</a> */?>
+                    <?php /* <a href="#" class="btn-learn-more">Learn More</a> */ ?>
                 </div>
             </div>
 
         </div>
     </section>
- <!-- End About Us Section -->
+    <!-- End About Us Section -->
 
     <!-- ======= Why Us Section ======= -->
     <?php /* <section id="why-us" class="why-us section-bg">
@@ -241,7 +243,7 @@
 
             <div class="row">
                 <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                    <img src="<?=base_url()?>/public/img/skills.png" class="img-fluid" alt="">
+                    <img src="<?= base_url() ?>/public/img/skills.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                     <h3>Recommendations</h3>
@@ -256,8 +258,10 @@
                             </li>
                             <li>
                                 Businesses (Pharmacies, Restaurant & Bars, Boutiques or Fashion shops,
-                                Unisex Salons, Cold stores, Hardware shops, Cosmetics & Hair shops, Electronics & Electrical shops, Kitchenware shops,
-                                Wine shops, Provision shops, Stationery shops, Agro Chemical shops, Surgical shops, Aluminium shops,
+                                Unisex Salons, Cold stores, Hardware shops, Cosmetics & Hair shops, Electronics &
+                                Electrical shops, Kitchenware shops,
+                                Wine shops, Provision shops, Stationery shops, Agro Chemical shops, Surgical shops,
+                                Aluminium shops,
                                 Spare parts shops, Furniture shops, Raw materials shops, All kinds of shops.
                             </li>
                         </ul>
@@ -295,7 +299,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                     data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-file"></i></div>
                         <h4><a href="javascript:void(0)">Digital Marketing</a></h4>
@@ -312,7 +317,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="300">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-tachometer"></i></div>
                         <h4><a href="javascript:void(0)">Client Ordering Platform</a></h4>
@@ -325,7 +331,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="400">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-layer"></i></div>
                         <h4><a href="javascript:void(0)">Shop/Store Security</a></h4>
@@ -358,7 +365,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                     data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-file"></i></div>
                         <h4><a href="javascript:void(0)">App & Web Development</a></h4>
@@ -372,7 +380,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="300">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-tachometer"></i></div>
                         <h4><a href="javascript:void(0)">Ultra High Definition Graphic Design</a></h4>
@@ -388,7 +397,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="400">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-layer"></i></div>
                         <h4><a href="javascript:void(0)">Home Automation</a></h4>
@@ -422,7 +432,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                     data-aos-delay="200">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-file"></i></div>
                         <h4><a href="javascript:void(0)">Tracking Devices</a></h4>
@@ -437,7 +448,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="300">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-tachometer"></i></div>
                         <h4><a href="javascript:void(0)">Intruder Alarm System</a></h4>
@@ -449,7 +461,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                     data-aos-delay="400">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-layer"></i></div>
                         <h4><a href="javascript:void(0)">Business Safety Gadget</a></h4>
@@ -499,7 +512,7 @@
 
         </div>
     </section>
-    <!-- End Cta Section --> */?>
+    <!-- End Cta Section --> */ ?>
 
     <?php /*<!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -613,7 +626,7 @@
 
         </div>
     </section>
-    <!-- End Portfolio Section -->*/?>
+    <!-- End Portfolio Section -->*/ ?>
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -628,7 +641,8 @@
 
                 <div class="col-lg-6 d-flex align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/ceo.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/ceo.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="member-info">
                             <h4>Lawrence Owusu</h4>
                             <span>Co Founder/Business Executive/ Public Relations officer / Head Of IT</span>
@@ -645,7 +659,8 @@
 
                 <div class="col-lg-6 mt-4 d-flex mt-lg-0 align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/business_adviser.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/business_adviser.jpg"
+                                           class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Michael Osei Tutu</h4>
                             <span>Business adviser</span>
@@ -662,7 +677,8 @@
 
                 <div class="col-lg-6 mt-4 d-flex align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/it_manager.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/it_manager.jpg" class="img-fluid"
+                                           alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Bright Owusu Kusi</h4>
                             <span>Chief Information Office</span>
@@ -679,7 +695,8 @@
 
                 <div class="col-lg-6 mt-4 d-flex align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-4.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="member-info">
                             <h4>Mrs. Lydia Owusu Amankona</h4>
                             <span>HR Manager</span>
@@ -702,7 +719,8 @@
 
                 <div class="col-lg-6 d-flex">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-1.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="member-info">
                             <h4>Mr. Bernard Acheampong</h4>
                             <span>Accountant</span>
@@ -719,7 +737,8 @@
 
                 <div class="col-lg-6 mt-4 d-flex mt-lg-0">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/administrator.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/administrator.jpg" class="img-fluid"
+                                           alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Samuel Rockson Marfo</h4>
                             <span>Administrative Manager</span>
@@ -736,7 +755,8 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/ops_manager.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/ops_manager.jpg" class="img-fluid"
+                                           alt=""></div>
                         <div class="member-info">
                             <h4>Bernice Acheampong</h4>
                             <span>Operations Manager</span>
@@ -753,7 +773,8 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/developer.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/developer.jpg" class="img-fluid"
+                                           alt=""></div>
                         <div class="member-info">
                             <h4>Aaron Will Djaba</h4>
                             <span>Lead Software Engineer</span>
@@ -761,8 +782,10 @@
                             <div class="social">
                                 <a href="https://twitter.com/brakhobbykurtiz"><i class="ri-twitter-fill"></i></a>
                                 <a href="https://www.facebook.com/brakhobbykurtiz"><i class="ri-facebook-fill"></i></a>
-                                <a href="https://www.instagram.com/brakhobbykurtiz/"><i class="ri-instagram-fill"></i></a>
-                                <a href="https://gh.linkedin.com/in/aaron-will-djaba-424b7a184"> <i class="ri-linkedin-box-fill"></i> </a>
+                                <a href="https://www.instagram.com/brakhobbykurtiz/"><i
+                                            class="ri-instagram-fill"></i></a>
+                                <a href="https://gh.linkedin.com/in/aaron-will-djaba-424b7a184"> <i
+                                            class="ri-linkedin-box-fill"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -776,7 +799,8 @@
 
                 <div class="col-lg-6 d-flex">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/graphic_designer.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/graphic_designer.jpg"
+                                           class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Edith Acheampong</h4>
                             <span>Graphic Designer</span>
@@ -793,7 +817,8 @@
 
                 <div class="col-lg-6 mt-4 d-flex mt-lg-0">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/marketing_officer.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/marketing_officer.jpg"
+                                           class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Olivia Agyei Nyarko</h4>
                             <span>Marketing Officer</span>
@@ -810,7 +835,8 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/r_dev.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/r_dev.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="member-info">
                             <h4>Samuel Kwaku Owusu Appiah</h4>
                             <span>R & Development officer</span>
@@ -827,7 +853,8 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-4.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="member-info">
                             <h4>Mrs. Doreen Ohene-Asare</h4>
                             <span>Legal Adviser</span>
@@ -850,7 +877,8 @@
 
                 <div class="col-lg-6 d-flex">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/health_adviser.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/health_adviser.jpg" class="img-fluid"
+                                           alt=""></div>
                         <div class="member-info">
                             <h4>Mrs. Lawrencia Owusu Osei-Tutu</h4>
                             <span>Health Adviser</span>
@@ -864,71 +892,37 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
     </section>
     <!-- End Team Section -->
 
-    <?php /*<!-- ======= Pricing Section ======= -->
+    <!-- ======= Trending Products Section ======= -->
     <section id="pricing" class="pricing">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Pricing</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <h2>Trending Product</h2>
+                <article>
+                <h3>
+                    <a href="https://ourpos.ourtechnologies.org" target="_blank">OurPos</a>
+                    - Point Of Sales Management
+                </h3>
+                <a href="https://ourpos.ourtechnologies.org" target="_blank">OurPos</a>
+                is a Point Of Sale management software that helps you manage and keep track of your sales,
+                income, inventory alongside other wonderful features. It gives you a very convenient and easy-to-use
+                interface
+                </article>
+                <div class="text-center mt-3">
+                    <a href="https://ourpos.ourtechnologies.org"
+                       target="_blank"
+                       class="btn rounded-pill try-pos animate__animated animate__heartBeat">
+                        Try OurPos
+                    </a>
+                </div>
             </div>
-
-            <div class="row">
-
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="box">
-                        <h3>Free Plan</h3>
-                        <h4><sup>$</sup>0<span>per month</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                            <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                            <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                        </ul>
-                        <a href="#" class="buy-btn">Get Started</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                    <div class="box featured">
-                        <h3>Business Plan</h3>
-                        <h4><sup>$</sup>29<span>per month</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                            <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                            <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                        </ul>
-                        <a href="#" class="buy-btn">Get Started</a>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                    <div class="box">
-                        <h3>Developer Plan</h3>
-                        <h4><sup>$</sup>49<span>per month</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                            <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                            <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                            <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                            <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                        </ul>
-                        <a href="#" class="buy-btn">Get Started</a>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
     </section>
-    <!-- End Pricing Section -->*/?>
+    <!-- End Trending Products Section -->
 
     <?php /*<!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -991,7 +985,7 @@
 
         </div>
     </section>
-    <!-- End Frequently Asked Questions Section -->*/?>
+    <!-- End Frequently Asked Questions Section -->*/ ?>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -1028,7 +1022,7 @@
                             <p>+233 55 327 6163 / +233 50 149 9813</p>
                         </div>
 
-                        <?php /*<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>*/?>
+                        <?php /*<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>*/ ?>
                     </div>
 
                 </div>
@@ -1058,7 +1052,9 @@
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button class="btn btn-primary" type="button">Send Message</button></div>
+                        <div class="text-center">
+                            <button class="btn btn-primary" type="button">Send Message</button>
+                        </div>
                     </form>
                 </div>
 
@@ -1091,8 +1087,8 @@
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 footer-contact">
-                    <a href="<?=base_url()?>" class="">
-                        <img src="<?=base_url()?>/public/img/logo.png" alt="" class="footer-logo img-fluid">
+                    <a href="<?= base_url() ?>" class="">
+                        <img src="<?= base_url() ?>/public/img/logo.png" alt="" class="footer-logo img-fluid">
                         <span class="footer-logo-label">247 Technologies 🌈🔥</span>
                     </a>
                     <p>
@@ -1122,7 +1118,7 @@
 
     <div class="container footer-bottom clearfix">
         <div class="copyright">
-             Copyright &copy; <?=date("Y")?>
+            Copyright &copy; <?= date("Y") ?>
             <strong>
                 <span>247 Technologies</span>
             </strong>. All Rights Reserved
@@ -1134,19 +1130,20 @@
 </footer><!-- End Footer -->
 
 <div id="preloader"></div>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="<?=base_url()?>/public/vendor/aos/aos.js"></script>
-<script src="<?=base_url()?>/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?=base_url()?>/public/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="<?=base_url()?>/public/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="<?=base_url()?>/public/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="<?=base_url()?>/public/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="<?=base_url()?>/public/vendor/php-email-form/validate.js"></script>
+<script src="<?= base_url() ?>/public/vendor/aos/aos.js"></script>
+<script src="<?= base_url() ?>/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?= base_url() ?>/public/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="<?= base_url() ?>/public/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="<?= base_url() ?>/public/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="<?= base_url() ?>/public/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="<?= base_url() ?>/public/vendor/php-email-form/validate.js"></script>
 
 <!-- Template Main JS File -->
-<script src="<?=base_url()?>/public/js/main.js"></script>
+<script src="<?= base_url() ?>/public/js/main.js"></script>
 
 </body>
 

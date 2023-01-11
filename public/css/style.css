@@ -1580,3 +1580,19 @@ section {
   height: 75px;
   width: auto;
 }
+
+.try-pos {
+  background-color: #47b2e4;
+  color: white;
+  padding: 10px 17px;
+  animation: heartBeat;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.try-pos:hover {
+  background-color: white;
+  color: #47b2e4;
+  border: 1px solid #47b2e4;
+  transition: ease-out 1s;
+}
