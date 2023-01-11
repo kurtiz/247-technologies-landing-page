@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>247 Technologies | Home</title>
+    <title>24/7 Technologies | Home</title>
     <meta property="og:image" content="<?= base_url(); ?>/public/img/hero-img.png"/>
     <meta content="24/7 Technologies is a global intent technology company that has combined resources
           (Skills,abilities, Intelligence, etc) as a tool in the Interplanetary Developmental programs."
@@ -52,7 +52,7 @@
 
         <a href="<?= base_url() ?>" class="logo me-auto">
             <img src="<?= base_url() ?>/public/img/logo-white.png" alt="" class="img-fluid">
-            <span class="logo-label">247 Technologies 🌈🔥</span>
+            <span class="logo-label">24/7 Technologies 🌈🔥</span>
         </a>
 
         <nav id="navbar" class="navbar">
@@ -695,7 +695,7 @@
 
                 <div class="col-lg-6 mt-4 d-flex align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-4.jpg" class="img-fluid" alt="">
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/hr.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Mrs. Lydia Owusu Amankona</h4>
@@ -719,7 +719,7 @@
 
                 <div class="col-lg-6 d-flex">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-1.jpg" class="img-fluid" alt="">
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/accountant.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Mr. Bernard Acheampong</h4>
@@ -839,7 +839,7 @@
                         </div>
                         <div class="member-info">
                             <h4>Samuel Kwaku Owusu Appiah</h4>
-                            <span>R & Development officer</span>
+                            <span>Research & Development officer</span>
                             <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
@@ -1089,7 +1089,7 @@
                 <div class="col-lg-6 col-md-6 footer-contact">
                     <a href="<?= base_url() ?>" class="">
                         <img src="<?= base_url() ?>/public/img/logo.png" alt="" class="footer-logo img-fluid">
-                        <span class="footer-logo-label">247 Technologies 🌈🔥</span>
+                        <span class="footer-logo-label">24/7 Technologies 🌈🔥</span>
                     </a>
                     <p>
                         Oyarifa, Off Peduase Lodge Stretch<br>
@@ -1120,7 +1120,7 @@
         <div class="copyright">
             Copyright &copy; <?= date("Y") ?>
             <strong>
-                <span>247 Technologies</span>
+                <span>24/7 Technologies</span>
             </strong>. All Rights Reserved
         </div>
         <div class="credits">
