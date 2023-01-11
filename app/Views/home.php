@@ -631,7 +631,7 @@
                         <div class=""><img src="<?=base_url()?>/public/img/team/ceo.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Lawrence Owusu</h4>
-                            <span>Co Founder/Business Executive/ Public Relations officer</span>
+                            <span>Co Founder/Business Executive/ Public Relations officer / Head Of IT</span>
                             <p>Come let’s climb the ladder together.</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
@@ -662,10 +662,10 @@
 
                 <div class="col-lg-6 mt-4 d-flex align-items-stretch">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?=base_url()?>/public/img/team/it_manager.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Bright Owusu Kusi</h4>
-                            <span>IT Manager</span>
+                            <span>Chief Information Office</span>
                             <p>I will be glad to share my thoughts on how to use technology wisely</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
@@ -722,7 +722,7 @@
                         <div class=""><img src="<?=base_url()?>/public/img/team/administrator.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Samuel Rockson Marfo</h4>
-                            <span>Administrator</span>
+                            <span>Administrative Manager</span>
                             <p>I make things organised.</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
@@ -793,7 +793,7 @@
 
                 <div class="col-lg-6 mt-4 d-flex mt-lg-0">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?=base_url()?>/public/img/team/marketing_officer.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Olivia Agyei Nyarko</h4>
                             <span>Marketing Officer</span>
@@ -810,9 +810,9 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
-                        <div class=""><img src="<?=base_url()?>/public/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+                        <div class=""><img src="<?=base_url()?>/public/img/team/r_dev.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Bright Effa Agyenfrimpong</h4>
+                            <h4>Samuel Kwaku Owusu Appiah</h4>
                             <span>R & Development officer</span>
                             <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
                             <div class="social">
@@ -829,9 +829,9 @@
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
                         <div class=""><img src="<?=base_url()?>/public/img/team/team-4.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Mrs Doreen</h4>
+                            <h4>Mrs. Doreen Ohene-Asare</h4>
                             <span>Legal Adviser</span>
-                            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                            <p>Compliance is key to our success</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
                                 <a href="javascript:void(0)"><i class="ri-facebook-fill"></i></a>
@@ -852,7 +852,7 @@
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div class=""><img src="<?=base_url()?>/public/img/team/health_adviser.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Mrs Lawrencia Owusu Osei-Tutu</h4>
+                            <h4>Mrs. Lawrencia Owusu Osei-Tutu</h4>
                             <span>Health Adviser</span>
                             <p>We have got to stay healthy as we work.</p>
                             <div class="social">
