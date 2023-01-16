@@ -60,10 +60,9 @@
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#about">About</a></li>
                 <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <?php //<li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></ ?>
                 <li><a class="nav-link scrollto" href="#team">Team</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#services">Get Started</a></li>
+                <li><a class="getstarted scrollto" href="#ourpos">Try OurPos</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -681,7 +680,7 @@
                                            alt=""></div>
                         <div class="member-info">
                             <h4>Mr. Bright Owusu Kusi</h4>
-                            <span>Chief Information Office</span>
+                            <span>Chief Information Officer</span>
                             <p>I will be glad to share my thoughts on how to use technology wisely</p>
                             <div class="social">
                                 <a href="javascript:void(0)"><i class="ri-twitter-fill"></i></a>
@@ -853,7 +852,7 @@
 
                 <div class="col-lg-6 d-flex mt-4">
                     <div class="member d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
-                        <div class=""><img src="<?= base_url() ?>/public/img/team/team-4.jpg" class="img-fluid" alt="">
+                        <div class=""><img src="<?= base_url() ?>/public/img/team/legal_adviser.png" class="img-fluid" alt="">
                         </div>
                         <div class="member-info">
                             <h4>Mrs. Doreen Ohene-Asare</h4>
@@ -897,7 +896,7 @@
     <!-- End Team Section -->
 
     <!-- ======= Trending Products Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="ourpos" class="pricing">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
@@ -907,6 +906,7 @@
                     <a href="https://ourpos.ourtechnologies.org" target="_blank">OurPos</a>
                     - Point Of Sales Management
                 </h3>
+                    <img src="<?=base_url()?>/public/img/our_pos.png" class="img-fluid" alt="Point Of Sale app screenshots"/>
                 <a href="https://ourpos.ourtechnologies.org" target="_blank">OurPos</a>
                 is a Point Of Sale management software that helps you manage and keep track of your sales,
                 income, inventory alongside other wonderful features. It gives you a very convenient and easy-to-use
